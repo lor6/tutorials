@@ -25,19 +25,6 @@
             <version>${rx.java2.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.junit</groupId>
-            <artifactId>junit-bom</artifactId>
-            <version>${junit-jupiter.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <version>${assertj.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-core</artifactId>
             <version>${jmh-core.version}</version>
@@ -71,7 +58,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
-            <version>${apache.commons.collection4.version}</version>
+            <version>${commons-collections4.version}</version>
         </dependency>
         <dependency>
             <groupId>com.oath.cyclops</groupId>
@@ -106,7 +93,6 @@
         <rx.java3.version>3.1.5</rx.java3.version>
         <io.varv.version>1.0.0-alpha-4</io.varv.version>
         <reactor-core.version>3.6.0</reactor-core.version>
-        <apache.commons.collection4.version>4.4</apache.commons.collection4.version>
         <cyclops.version>10.4.1</cyclops.version>
     </properties>
 

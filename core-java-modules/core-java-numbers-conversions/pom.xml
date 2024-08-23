@@ -21,7 +21,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>RELEASE</version>
+            <version>${testng.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -41,5 +41,10 @@
             </resource>
         </resources>
     </build>
+
+    <properties>
+        <testng.version>7.10.2</testng.version>
+        <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version> <!-- cannot upgrade BigDecimalToIntegerConversionUnitTest breaks -->
+    </properties>
 
 </project>

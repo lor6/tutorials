@@ -10,18 +10,20 @@
 
     <parent>
         <groupId>com.baeldung</groupId>
-        <artifactId>parent-boot-2</artifactId>
+        <artifactId>parent-boot-3</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent-boot-2</relativePath>
+        <relativePath>../parent-boot-3</relativePath>
     </parent>
 
     <modules>
         <module>discord4j</module>
         <module>jira-rest-integration</module>
+        <module>sendgrid</module>
         <module>sentry-servlet</module>
         <module>slack</module>
         <module>stripe</module>
         <module>twilio</module>
+        <module>twilio-whatsapp</module>
         <module>twitter4j</module>
     </modules>
 
@@ -35,5 +37,9 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <properties>
+        <start-class>com.baeldung.Main</start-class>
+    </properties>
 
 </project>

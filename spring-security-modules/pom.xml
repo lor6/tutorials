@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-security-modules</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-security-modules</name>
     <packaging>pom</packaging>
+    <name>spring-security-modules</name>
 
     <parent>
         <groupId>com.baeldung</groupId>
@@ -56,6 +56,10 @@
         <module>spring-security-oauth2-testing</module>
         <module>spring-security-saml2</module>
         <module>spring-security-oauth2-bff/backend</module>
+        <module>spring-security-pkce-spa</module>
+        <module>spring-security-compromised-password</module>
+        <module>spring-security-authorization</module>
+        <module>spring-security-dynamic-registration</module>
     </modules>
 
 </project>
